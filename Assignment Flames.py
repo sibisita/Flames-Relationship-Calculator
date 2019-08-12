@@ -1,7 +1,7 @@
 x=input("Enter first name : ").upper()
 y=input ("Enter second name : ").upper()
 u,v=list(x),list(y)
-for i in x.upper():
+for i in x:
 	if i in v:
 		u.remove(i)
 		v.remove(i)
